@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{B440296D-4DFB-4110-AA07-1EB742536F27}</ProjectGuid>
+    <ProjectGuid>{DD4D49EC-1FCC-4D62-BFAE-7380280991C5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>JianZhiOffer</RootNamespace>
+    <RootNamespace>DeleteDuplicatedNode</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -152,24 +152,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
-    <ClInclude Include="q01.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="JianZhiOffer.cpp" />
+    <ClCompile Include="DeleteDuplicatedNode.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="q13huisufa.cpp" />
-    <ClCompile Include="q06.cpp" />
-    <ClCompile Include="q07.cpp" />
-    <ClCompile Include="q08.cpp" />
-    <ClCompile Include="q12.cpp" />
-    <ClCompile Include="q13.cpp" />
-    <ClCompile Include="q17.cpp" />
-    <ClCompile Include="singleton.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,3 +1,4 @@
+#if 0
 #pragma once
 #include <vector>
 using std::vector;
@@ -21,3 +22,4 @@ public:
 		return false;
 	}
 };
+#endif
