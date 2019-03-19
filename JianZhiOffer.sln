@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "29_PrintMatrix", "29_PrintM
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "30_MinInStack", "30_MinInStack\30_MinInStack.vcxproj", "{A290A524-C3EB-4CF4-93F4-5186B718C694}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "31_StackPushPopOrder", "31_StackPushPopOrder\31_StackPushPopOrder.vcxproj", "{FB5EDF3C-F4C8-4FEF-B4DC-D70F58A0E430}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{A290A524-C3EB-4CF4-93F4-5186B718C694}.Release|x64.Build.0 = Release|x64
 		{A290A524-C3EB-4CF4-93F4-5186B718C694}.Release|x86.ActiveCfg = Release|Win32
 		{A290A524-C3EB-4CF4-93F4-5186B718C694}.Release|x86.Build.0 = Release|Win32
+		{FB5EDF3C-F4C8-4FEF-B4DC-D70F58A0E430}.Debug|x64.ActiveCfg = Debug|x64
+		{FB5EDF3C-F4C8-4FEF-B4DC-D70F58A0E430}.Debug|x64.Build.0 = Debug|x64
+		{FB5EDF3C-F4C8-4FEF-B4DC-D70F58A0E430}.Debug|x86.ActiveCfg = Debug|Win32
+		{FB5EDF3C-F4C8-4FEF-B4DC-D70F58A0E430}.Debug|x86.Build.0 = Debug|Win32
+		{FB5EDF3C-F4C8-4FEF-B4DC-D70F58A0E430}.Release|x64.ActiveCfg = Release|x64
+		{FB5EDF3C-F4C8-4FEF-B4DC-D70F58A0E430}.Release|x64.Build.0 = Release|x64
+		{FB5EDF3C-F4C8-4FEF-B4DC-D70F58A0E430}.Release|x86.ActiveCfg = Release|Win32
+		{FB5EDF3C-F4C8-4FEF-B4DC-D70F58A0E430}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
