@@ -6,6 +6,7 @@
 #include <vector>
 using std::vector;
 
+
 class Solution {
 public:
 	vector<int> printMatrix(vector<vector<int> > matrix) {
@@ -22,30 +23,21 @@ public:
 
 			// 打印一行
 			for (int i = start; i <= endCol; ++i)
-			{
 				res.push_back(matrix[start][i]);
-			}
+
 			// 打印一列
 			for (int i = start + 1; i <= endRow; ++i)
-			{
 				res.push_back(matrix[i][endCol]);
-			}
+
 			// 打印底部一行
 			if (endRow != start)
-			{
 				for (int i = endCol - 1; i >= start; --i)
-				{
 					res.push_back(matrix[endRow][i]);
-				}
-			}
+
 			// 打印一列
 			if (endCol != start)
-			{
 				for (int i = endRow - 1; i > start; --i)
-				{
 					res.push_back(matrix[i][start]);
-				}
-			}
 		}
 	return res;
 	}

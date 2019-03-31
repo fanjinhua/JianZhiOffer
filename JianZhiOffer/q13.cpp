@@ -1,5 +1,5 @@
 #include "pch.h"
-#if 0
+
 #include <stack>
 #include <iostream>
 class Solution {
@@ -71,4 +71,3 @@ int main()
 	std::cout << su.movingCount(5, 10, 10);
 	return 0;
 }
-#endif
